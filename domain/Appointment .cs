@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace domain
 {
-    internal class Appointment
+    public class Appointment
     {
         private DateTime appoinmentStart;
         private DateTime appoinmentEnd;

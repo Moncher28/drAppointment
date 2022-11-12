@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace domain
 {
-    internal class Schedule
+    public class Schedule
     {
-        private int drId;
+        private int id;
         private DateTime dayStart;
         private DateTime dayEnd;
 
-        public int DrId { get { return drId; } set { drId = value; } }
+        public int Id { get { return id; } set { id = value; } }
         public DateTime DayStart { get { return dayStart; } set { dayStart = value; } }
         public DateTime DayEnd { get { return dayEnd; } set { dayEnd = value; } }
     }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace domain
 {
-    internal class DrSpec
+    public class DrSpec
     {
         private int id;
         private string name;

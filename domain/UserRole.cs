@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace domain
 {
-    internal class UserRole
+    public class UserRole
     {
         private int id;
         public int Id { get { return id; } }

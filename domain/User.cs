@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace domain
 {
-    internal class User
+    public class User
     {
         private int id;
         private string phoneNumber;
@@ -17,5 +17,8 @@ namespace domain
         public string PhoneNumber { get { return phoneNumber; } set { phoneNumber = value; } }
         public string Name { get { return name; } set { name = value; } }
         public UserRole Role { get { return role; } set { role = value; } }
+
+        public string Login { get; set; }
+
     }
 }
