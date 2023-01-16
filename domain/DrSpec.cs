@@ -11,11 +11,8 @@ namespace domain
     {
         private int id;
         private string name;
-        private DrSpec spec;
 
-        public int Id { get { return id; } }
-        public string Name { get { return name; } }
-
-        public DrSpec Spec { get { return spec; } set { spec = value; } }
+        public int Id { get { return id; } set { id = value; } }
+        public string Name { get { return name; } set { name = value; } }
     }
 }

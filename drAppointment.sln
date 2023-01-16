@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "drAppointment", "drAppointm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "domain", "domain\domain.csproj", "{398107CA-975C-482C-A3A1-E6F788E42FBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{3B0125DD-7FAD-423E-AE59-B7FD5BD2D354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{3B0125DD-7FAD-423E-AE59-B7FD5BD2D354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{B78A4FF2-6403-4BDF-871B-F66D9F15179D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3B0125DD-7FAD-423E-AE59-B7FD5BD2D354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B0125DD-7FAD-423E-AE59-B7FD5BD2D354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B0125DD-7FAD-423E-AE59-B7FD5BD2D354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78A4FF2-6403-4BDF-871B-F66D9F15179D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78A4FF2-6403-4BDF-871B-F66D9F15179D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78A4FF2-6403-4BDF-871B-F66D9F15179D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78A4FF2-6403-4BDF-871B-F66D9F15179D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
