@@ -1,4 +1,6 @@
 using domain;
+using domain.Repositories;
+using domain.Services;
 
 namespace UnitTests;
 public class UserTests
